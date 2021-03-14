@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+selenium = "*"
+loguru = "*"
+beautifulsoup4 = "*"
+openpyxl = "*"
+black = "==19.10b0"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
